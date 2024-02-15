@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Welcome Admin</h2>
+
+<h1>Admin Panel</h1>
+
+<ul>
+    @Html.ActionLink("Add Product", "AddProduct", "Admin")
+    <br />
+    @Html.ActionLink("Delete Product", "DeleteProduct", "Admin")
+    <br />
+    @Html.ActionLink("Edit Product", "EditProduct", "Admin")
+    <br />
+</ul>
